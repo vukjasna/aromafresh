@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'robotoregular'; }
+  * a {
+    text-decoration: none; }
+
+@font-face {
+  font-family: 'bebasregular';
+  src: url("../fonts/bebas/BEBAS___-webfont.eot");
+  src: url("../fonts/bebas/BEBAS___-webfont.eot#iefix") format("embedded-opentype"), url("../fonts/bebas/BEBAS___-webfont.woff") format("woff"), url("../fonts/bebas/BEBAS___-webfont.ttf") format("truetype"), url("../fonts/bebas/BEBAS___-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'robotoregular';
+  src: url("../fonts/roboto/Roboto-Regular-webfont.eot");
+  src: url("../fonts/roboto/Roboto-Regular-webfont.eot#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Regular-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-Regular-webfont.ttf") format("truetype"), url("../fonts/roboto/Roboto-Regular-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+nav {
+  position: relative; }
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  right: 10%;
+  top: 2em; }
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #5a8a3d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 10em; }
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41; }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background: #fde376; }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1; }
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block; }
+
+.background {
+  background: url("../images/image1.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center; }
+
+.centerDiv {
+  background: rgba(0, 0, 0, 0.3);
+  padding-top: 5em;
+  width: 100%; }
+  .centerDiv img {
+    width: 25%;
+    margin: 3em 0; }
+  .centerDiv p {
+    padding-bottom: 2em;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white; }
+
+/* section 2 */
+.products {
+  text-align: center; }
+  .products h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0; }
+  .products a {
+    background: black;
+    color: white;
+    padding: 0.5em;
+    display: block;
+    width: 13em;
+    margin: 0 auto; }
+
+.container {
+  width: 16em;
+  margin: 2em auto; }
+  .container h2 {
+    margin-bottom: 1em; }
+  .container img {
+    width: 100%; }
+  .container p {
+    text-align: justify;
+    margin: 1.5em 0; }
+  .container a {
+    background: black;
+    color: white;
+    padding: 0.5em;
+    width: 16em; }
+
+/* section 3 */
+.parallax {
+  height: 500px;
+  text-align: center;
+  color: white;
+  background: url("../images/image3.jpg") no-repeat fixed;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.parallax_text {
+  padding-top: 10em; }
+  .parallax_text h2 {
+    font-size: 2.7em;
+    margin-bottom: 0.7em;
+    text-transform: uppercase; }
+
+/* section 4 */
+.section4 {
+  background: url("../images/1.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 1em; }
+  .section4 h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    padding: 2em 0;
+    color: white; }
+
+.video_section {
+  max-width: 25em;
+  /* pazi kod responsive-a, samo WIDTH! */
+  margin: 2em auto; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; }
+  .videoWrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+
+/* section5 */
+.section5 {
+  text-align: center; }
+  .section5 a {
+    background: black;
+    color: white;
+    padding: 0.5em;
+    display: block;
+    width: 13em;
+    margin: 4em auto 1em; }
+  .section5 h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-top: 2em; }
+  .section5 p {
+    margin: 1em 0 3em 0; }
+
+.reference img {
+  width: 11em;
+  height: auto;
+  margin: 1em 0; }
+
+.social_media {
+  padding: 2em; }
+
+footer {
+  color: white;
+  background: black; }
+
+.contact {
+  display: inline-block;
+  margin: 3em; }
+  .contact h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 1em; }
+  .contact p {
+    line-height: 30px; }
+
+@media screen and (min-width: 600px) {
+  .parallax_text p {
+    font-size: 1.6em; }
+
+  .container {
+    display: inline-block;
+    margin: 0 3em 5em 3em; }
+
+  .section5 {
+    margin-bottom: 4em; }
+
+  .reference {
+    display: inline-block;
+    margin: 0 1em; }
+
+  .social_media {
+    display: inline-block;
+    margin: 2em; }
+
+  .istrazivanje {
+    width: 50%;
+    display: inline-block; }
+
+  .health_safety {
+    display: inline-block;
+    width: 60%; }
+
+  .usda {
+    display: inline-block;
+    margin-left: 9%; }
+
+  .google_map {
+    width: 25em;
+    margin: 0 auto; }
+
+  .product-text {
+    display: inline-block;
+    width: 60%;
+    vertical-align: bottom; }
+
+  .product-image {
+    display: inline-block; } }
+@media screen and (min-width: 900px) {
+  .section4 {
+    text-align: center;
+    padding-bottom: 3em; }
+
+  .video_section {
+    display: inline-block;
+    width: 25em;
+    text-align: initial;
+    margin: 2.5em; }
+
+  .social_media {
+    float: right; } }
+span {
+  color: #ff7830;
+  font-weight: 900; }
+
+.all_body {
+  margin: 5em; }
+  .all_body h2 {
+    margin: 1em 0;
+    font-size: 2.5em;
+    text-transform: uppercase; }
+  .all_body p {
+    text-align: justify; }
+
+.o_nama {
+  width: 45%;
+  display: inline-block; }
+
+.istrazivanje img {
+  width: 100%;
+  margin: 2em 0; }
+
+.usda {
+  text-align: center; }
+  .usda img {
+    width: 100%; }
+
+.google_map {
+  text-align: center; }
+  .google_map h2 {
+    margin: 1.5em;
+    font-size: 2.5em; }
+  .google_map .map_holder {
+    height: 20em;
+    margin-bottom: 3em; }
+
+.all_products {
+  text-align: center;
+  margin: 4em 0; }
+  .all_products h2 {
+    font-size: 2.5em; }
+  .all_products p {
+    text-align: justify;
+    margin: 3em; }
+  .all_products img {
+    width: 100%; }
+
+.smoky_background {
+  background: url("../images/9.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.navigation_background {
+  background: url("../images/image222.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center; }
+  .navigation_background img {
+    width: 14em;
+    padding: 1.5em 0; }
+
+.navigation_background1 {
+  background: url("../images/image1313.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-position: 50% 37%; }
+  .navigation_background1 img {
+    width: 14em;
+    padding: 1.5em 0; }
+
+.navigation_background2 {
+  background: url("../images/image1414.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center; }
+  .navigation_background2 img {
+    width: 14em;
+    padding: 1.5em 0; }
+
+.navigation_background3 {
+  background: url("../images/image1515.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center; }
+  .navigation_background3 img {
+    width: 14em;
+    padding: 1.5em 0; }
+
+.gallery {
+  width: 52%;
+  margin: 0 auto 4em;
+  padding: 5px;
+  background: #fff; }
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px; }
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0);
+  /* hack */ }
+
+.gallery > div:hover {
+  z-index: 1; }
+
+.gallery > div:hover > img {
+  transform: scale(1.7, 1.7);
+  transition: .3s transform; }
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0; }
+
+.cf:after {
+  clear: both; }
+
+.gallery_h2 h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 1.5em 0;
+  text-transform: uppercase; }
+
+.products .container {
+  vertical-align: top;
+}
+
+/*# sourceMappingURL=style.css.map */
